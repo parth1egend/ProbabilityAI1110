@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  27 APR 2023 19:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  28 APR 2023 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1410,22 +1410,22 @@ Package rerunfilecheck Info: File `assignment1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29875 strings out of 476025
- 600091 string characters out of 5781531
- 1861388 words of memory out of 5000000
- 49710 multiletter control sequences out of 15000+600000
+ 29887 strings out of 476025
+ 600255 string characters out of 5781531
+ 1866388 words of memory out of 5000000
+ 49713 multiletter control sequences out of 15000+600000
  567868 words of font info for 143 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,6n,96p,1179b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,12n,96p,1179b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/txfon
 ts/rtxr.pfb></usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/pu
 blic/txfonts/txsy.pfb></usr/local/Cellar/texlive/20230313/share/texmf-dist/font
 s/type1/urw/times/utmb8a.pfb></usr/local/Cellar/texlive/20230313/share/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb>
-Output written on assignment1.pdf (1 page, 32185 bytes).
+Output written on assignment1.pdf (1 page, 32522 bytes).
 PDF statistics:
- 37 PDF objects out of 1000 (max. 8388607)
- 25 compressed objects within 1 object stream
- 2 named destinations out of 1000 (max. 500000)
+ 48 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

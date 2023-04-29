@@ -174,7 +174,7 @@ columns=fullflexible
 %     \def\topbox#1{\raisebox{-\baselineskip}[0in][0in]{#1}}
 %     \def\midbox#1{\raisebox{-0.5\baselineskip}[0in][0in]{#1}}
 
-\vspace{3cm}
+
 
 \title{
 \LARGE Assignment-1
@@ -260,88 +260,100 @@ CS22BTECH11045
 
 % make the title area
 \maketitle
-\large \textbf{Question:} A box contains 5 red marbles, 8 white marbles and 4 green marbles. \large One marble is taken
-\large out of the box at random. What is the probability that the marble taken out will be :
+\textbf{Question:} A box contains 5 red marbles, 8 white marbles and 4 green marbles.One marble is taken
+out of the box at random. What is the probability that the marble taken out will be :
 
 \begin{enumerate}[label=(\roman*)]
-    \item \large red ? 
-    \item \large white ? 
-    \item \large not green?
+    \item red ? 
+    \item white ? 
+    \item  not green?
 \end{enumerate}
 
-\vspace{10pt}
+
 \textbf{Solution :}
 
-\vspace{10pt}
-\large Number of red marbles = 5
 
-\vspace{10pt}
-\large Number of white marbles = 8
+ Number of red marbles = 5
 
-\vspace{10pt}
-\large Number of green marbles = 4
 
-\vspace{10pt}
-\large  Total marbles = 5+8+4 = 17
-\vspace{10pt}
+ Number of white marbles = 8
 
+
+ Number of green marbles = 4
+
+
+  Total marbles = 5+8+4 = 17
+
+\begin{table}[h]
+\centering
+
+\begin{tabular}{|c|c|}
+\hline
+X & Outcome      \\
+\hline
+0 & Red Marble   \\
+1 & White Marble \\
+2 & Green Marble \\
+\hline
+\end{tabular}
+\end{table}
 
     
 \begin{enumerate}[label=(\roman*)]
 \item Probability that the marble taken out is red
-\vspace{5pt}
+
 \begin{align}
-&=\frac{\text{\large Number of red marbles}}{\text{\large Total number of marbles}}
+&=\frac{\text{ Number of red marbles}}{\text{ Total number of marbles}}
 \end{align}
     
 % = $\frac{\text{\large Number of red marbles}}{\text{\large Total number of marbles}}\quad$
-\vspace{10pt}
-Probability that the marble taken out is red
 
-\vspace{5pt}
+Probability that the marble taken out is red:
 
 \begin{align}
-&=\frac{\text{\large 5}}{\text{\large 17}}
-\end{align}
+	\pr{X=0} &= \frac{n(X=0)}{\sum_{i=0}^2 n(X=i)} = \frac{5}{17} \\
+	\therefore \pr{X=0} &= \frac{5}{17} \approx 0.2941
+	\end{align}
 
 % = $\frac{\text{\large 5}}{\text{\large 17}}\quad$
-\vspace{10pt}
+
 
 \item Probability that the marble taken out is white
-\vspace{5pt}
+
 \begin{align}
-&=\frac{\text{\large Number of white marbles}}{\text{\large Total number of marbles}}
+&=\frac{\text{ Number of white marbles}}{\text{ Total number of marbles}}
 \end{align}
 % = $\frac{\text{\large Number of white marbles}}{\text{\large Total number of marbles}}\quad$
-\vspace{10pt}
 
-Probability that the marble taken out is white
 
-\vspace{5pt}
+Probability that the marble taken out is white:
+
 \begin{align}
-&=\frac{\text{\large 8}}{\text{\large 17}}
-\end{align}
+	\pr{X=1} &= \frac{n(X=1)}{\sum_{i=0}^2 n(X=i)} = \frac{8}{17} \\
+	\therefore \pr{X=1} &= \frac{8}{17} \approx 0.4706
+	\end{align}
 
 % = $\frac{\text{\large 8}}{\text{\large 17}}\quad$
-\vspace{10pt}
+
 
 \item Probability that the marble taken out is not green
 
-\vspace{5pt}
+
 \begin{align}
-&=\frac{\text{\large Number of non green marbles}}{\text{\large Total number of marbles}}
+&=\frac{\text{ Number of non green marbles}}{\text{ Total number of marbles}}
 \end{align}
 
 
 % = $\frac{\text{\large Number of non green marbles}}{\text{\large Total number of marbles}}\quad$
-\vspace{10pt}
 
-Probability that the marble taken out is not green
 
-\vspace{5pt}
+Probability that the marble taken out is not green:
+
+
 \begin{align}
-&=\frac{\text{\large 13}}{\text{\large 17}}
-\end{align}
+	\pr{X \ne 2} &= \frac{n(X \ne 2)}{\sum_{i=0}^2 n(X=i)} = \frac{13}{17} \\
+	\therefore \pr{X \ne 2} &= \frac{13}{17} \approx 0.7647
+	\end{align}
 
 % = $\frac{\text{\large 13}}{\text{\large 17}}\quad$
 \end{enumerate}

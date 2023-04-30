@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  30 APR 2023 17:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  30 APR 2023 21:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1409,43 +1409,43 @@ Package hyperref Info: Link coloring OFF on input line 99.
 \c@lemma=\count351
 \c@example=\count352
 \c@rem=\count353
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 261.
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 262.
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-61.
+62.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/utxsya.f
 d
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-61.
+62.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/utxsyb.f
 d
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-61.
+62.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/utxmia.f
 d
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-61.
+62.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/utxsyc.f
 d
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 26
-1.
+2.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
-61.
+62.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/ts1txr.f
 d
@@ -1467,9 +1467,14 @@ Type  H <return>  for immediate help.
 l.150 \begin{longtable}
                        [c]{%
 ? 
-) [1{/usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/map/pdftex/updma
-p/pdftex.map}{/usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/enc/dvi
-ps/base/8r.enc}
+)
+Overfull \hbox (23.30214pt too wide) detected at line 361
+[]
+ []
+
+[1{/usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/map/pdftex/updmap/
+pdftex.map}{/usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/enc/dvips
+/base/8r.enc}
 
 
 ] (./assignment1.aux)
@@ -1477,28 +1482,25 @@ Package rerunfilecheck Info: File `assignment1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30504 strings out of 476025
- 609667 string characters out of 5781531
- 1878388 words of memory out of 5000000
- 50282 multiletter control sequences out of 15000+600000
+ 30511 strings out of 476025
+ 609732 string characters out of 5781531
+ 1884388 words of memory out of 5000000
+ 50286 multiletter control sequences out of 15000+600000
  589815 words of font info for 208 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,11n,96p,1179b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/txfon
 ts/rtxmi.pfb></usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/p
 ublic/txfonts/rtxr.pfb></usr/local/Cellar/texlive/20230313/share/texmf-dist/fon
-ts/type1/public/txfonts/txex.pfb></usr/local/Cellar/texlive/20230313/share/texm
-f-dist/fonts/type1/public/txfonts/txsy.pfb></usr/local/Cellar/texlive/20230313/
-share/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/Cellar/texliv
-e/20230313/share/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb></usr/local/Ce
-llar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
-ocal/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-</usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmr
-i8a.pfb>
-Output written on assignment1.pdf (1 page, 49179 bytes).
+ts/type1/public/txfonts/txsy.pfb></usr/local/Cellar/texlive/20230313/share/texm
+f-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/Cellar/texlive/20230313
+/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/Cellar/texlive/2
+0230313/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/Cellar/te
+xlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on assignment1.pdf (1 page, 48019 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 57 compressed objects within 1 object stream
+ 21 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

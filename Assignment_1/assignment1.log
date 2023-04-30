@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  29 APR 2023 19:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  30 APR 2023 17:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1213,8 +1213,61 @@ draw-eu-show.tex
 draw-eu-protractor.tex
 2023/02/03 5.02c tkz-obj-eu-protractor.tex
 ))
-LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
-01.
+(/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen324
+\ar@mcellbox=\box76
+\extrarowheight=\dimen325
+\NC@list=\toks44
+\extratabsurround=\skip65
+\backup@length=\skip66
+\ar@cellbox=\box77
+)
+(/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/tools/longtable.
+sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip67
+\LTright=\skip68
+\LTpre=\skip69
+\LTpost=\skip70
+\LTchunksize=\count334
+\LTcapwidth=\dimen326
+\LT@head=\box78
+\LT@firsthead=\box79
+\LT@foot=\box80
+\LT@lastfoot=\box81
+\LT@gbox=\box82
+\LT@cols=\count335
+\LT@rows=\count336
+\c@LT@tables=\count337
+\c@LT@chunks=\count338
+\LT@p@ftn=\toks45
+)
+(/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/multirow/multiro
+w.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip71
+\multirow@cntb=\count339
+\multirow@dima=\skip72
+\bigstrutjot=\dimen327
+)
+(/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/tools/hhline.sty
+Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
+)
+(/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/graphics/lscape.
+sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+(/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/wasysym/wasysym.
+sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
+\c@MYtempeqncnt=\count340
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 9
+9.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/ot1txr.f
 d
@@ -1222,114 +1275,105 @@ File: ot1txr.fd 2000/12/15 v3.1
 ) (./assignment1.aux)
 \openout1 = `assignment1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 101.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 99.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-101.
+99.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/omltxmi.
 fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 99.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-101.
+99.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/omstxsy.
 fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 101.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 99.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-101.
+99.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/omxtxex.
 fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 101.
-LaTeX Font Info:    Trying to load font information for U+txexa on input line 1
-01.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 99.
+LaTeX Font Info:    Trying to load font information for U+txexa on input line 9
+9.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/utxexa.f
 d
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 99.
+LaTeX Font Info:    ... okay on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 101.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 101.
-
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 101.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 101.
-
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 101.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 101.
-
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 101.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 101.
-
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 101.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 101.
-
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 101.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 101.
-
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 101.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 101.
-
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 101.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 101.
-
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 101.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 99.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 101.
-
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 99.
 
 -- Lines per column: 50 (exact).
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/context/base/mkii/supp
 -pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count334
-\scratchdimen=\dimen324
-\scratchbox=\box76
-\nofMPsegments=\count335
-\nofMParguments=\count336
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count337
-\MPscratchDim=\dimen325
-\MPnumerator=\count338
-\makeMPintoPDFobject=\count339
-\everyMPtoPDFconversion=\toks45
+\scratchcounter=\count341
+\scratchdimen=\dimen328
+\scratchbox=\box83
+\nofMPsegments=\count342
+\nofMParguments=\count343
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count344
+\MPscratchDim=\dimen329
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
+\everyMPtoPDFconversion=\toks47
 )
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/epstopdf-pkg/eps
 topdf-base.sty
@@ -1342,64 +1386,87 @@ opdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count340
-\symgns@font=\mathgroup10
+\c@lstlisting=\count347
+\symgns@font=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 101.
-Package gensymb Info: Math companion symbols declared on input line 101.
-LaTeX Info: Redefining \degree on input line 101.
-LaTeX Info: Redefining \celsius on input line 101.
+(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 99.
+Package gensymb Info: Math companion symbols declared on input line 99.
+LaTeX Info: Redefining \degree on input line 99.
+LaTeX Info: Redefining \celsius on input line 99.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 101.
-LaTeX Info: Redefining \ohm on input line 101.
-Package gensymb Info: Using \textohm for \ohm on input line 101.
-Package gensymb Info: Using \textmu for \micro on input line 101.
-Package hyperref Info: Link coloring OFF on input line 101.
+erthousand on input line 99.
+LaTeX Info: Redefining \ohm on input line 99.
+Package gensymb Info: Using \textohm for \ohm on input line 99.
+Package gensymb Info: Using \textmu for \micro on input line 99.
+Package hyperref Info: Link coloring OFF on input line 99.
  (./assignment1.out) (./assignment1.out)
 \@outlinefile=\write4
 \openout4 = `assignment1.out'.
 
-\c@theorem=\count341
-\c@problem=\count342
-\c@proposition=\count343
-\c@lemma=\count344
-\c@example=\count345
-\c@rem=\count346
-LaTeX Font Info:    Calculating math sizes for size <14> on input line 263.
+\c@theorem=\count348
+\c@problem=\count349
+\c@proposition=\count350
+\c@lemma=\count351
+\c@example=\count352
+\c@rem=\count353
+LaTeX Font Info:    Calculating math sizes for size <14> on input line 261.
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 2
-63.
+61.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/utxsya.f
 d
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 2
-63.
+61.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/utxsyb.f
 d
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 2
-63.
+61.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/utxmia.f
 d
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 2
-63.
+61.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/utxsyc.f
 d
 File: utxsyc.fd 2000/12/15 v3.1
 )
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 26
+1.
+
+(/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
-63.
+61.
 
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/ts1txr.f
 d
 File: ts1txr.fd 2000/12/15 v3.1
+) (./table/table.tex
+\gnumericTableWidth=\skip73
+\gnumericTableWidthComplete=\skip74
+\gnumericMultiRowLength=\skip75
+\gnumericColA=\skip76
+\gnumericColB=\skip77
+
+
+! Package longtable Error: longtable not in 1-column mode.
+
+See the longtable package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.150 \begin{longtable}
+                       [c]{%
+? 
 ) [1{/usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/map/pdftex/updma
 p/pdftex.map}{/usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/enc/dvi
 ps/base/8r.enc}
@@ -1410,11 +1477,11 @@ Package rerunfilecheck Info: File `assignment1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29954 strings out of 476025
- 601063 string characters out of 5781531
- 1876388 words of memory out of 5000000
- 49764 multiletter control sequences out of 15000+600000
- 587430 words of font info for 199 fonts, out of 8000000 for 9000
+ 30504 strings out of 476025
+ 609667 string characters out of 5781531
+ 1878388 words of memory out of 5000000
+ 50282 multiletter control sequences out of 15000+600000
+ 589815 words of font info for 208 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,11n,96p,1179b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/txfon
@@ -1428,7 +1495,7 @@ llar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/l
 ocal/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb>
-Output written on assignment1.pdf (1 page, 48664 bytes).
+Output written on assignment1.pdf (1 page, 49179 bytes).
 PDF statistics:
  81 PDF objects out of 1000 (max. 8388607)
  59 compressed objects within 1 object stream

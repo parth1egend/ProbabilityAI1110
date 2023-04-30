@@ -56,22 +56,20 @@
 %\usepackage{verbatim}
 %\usepackage{tfrupee}
 %\usepackage{stmaryrd}
-%\usetkzobj{all}
-%    \usepackage{color}                                            %%
-%    \usepackage{array}                                            %%
-%    \usepackage{longtable}                                        %%
-%    \usepackage{calc}                                             %%
-%    \usepackage{multirow}                                         %%
-%    \usepackage{hhline}                                           %%
-%    \usepackage{ifthen}                                           %%
-  %optionally (for landscape tables embedded in another document): %%
-%    \usepackage{lscape}     
-%\usepackage{multicol}
-%\usepackage{chngcntr}
-%\usepackage{enumerate}
+   \usepackage{color}                                            %%
+   \usepackage{array}                                            %%
+   \usepackage{longtable}                                        %%
+   \usepackage{calc}                                             %%
+   \usepackage{multirow}                                         %%
+   \usepackage{hhline}                                           %%
+   \usepackage{ifthen}                                           %%
+   \usepackage{lscape}     
+% \usepackage{multicol}
+% \usepackage{chngcntr}
+% \usepackage{enumerate}
 
-%\usepackage{wasysym}
-%\newcounter{MYtempeqncnt}
+\usepackage{wasysym}
+\newcounter{MYtempeqncnt}
 \DeclareMathOperator*{\Res}{Res}
 %\renewcommand{\baselinestretch}{2}
 \renewcommand\thesection{\arabic{section}}
@@ -284,20 +282,14 @@ out of the box at random. What is the probability that the marble taken out will
 
   Total marbles = 5+8+4 = 17
 
-\begin{table}[h]
+\begin{table}[ht!]
 \centering
+  
+\input{table/table.tex}
 
-\begin{tabular}{|c|c|}
-\hline
-X & Outcome      \\
-\hline
-0 & Red Marble   \\
-1 & White Marble \\
-2 & Green Marble \\
-\hline
-\end{tabular}
-	\caption{}
-	\label{table:table1}
+% \caption{}
+% \label{table}
+
 \end{table}
 
     
@@ -412,6 +404,7 @@ Probability that the marble taken out is not green:
 		
 
 \end{document}
+
 
 
 

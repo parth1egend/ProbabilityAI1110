@@ -123,14 +123,10 @@
 \setlongtables
 
 \setlength\gnumericTableWidth{%
-	105pt+%
-	53pt+%
-	53pt+%
-	53pt+%
-	53pt+%
-	53pt+%
+	52pt+%
+	79pt+%
 0pt}
-\def\gumericNumCols{6}
+\def\gumericNumCols{2}
 \setlength\gnumericTableWidthComplete{\gnumericTableWidth+%
          \tabcolsep*\gumericNumCols*2+\arrayrulewidth*\gumericNumCols}
 \ifthenelse{\lengthtest{\gnumericTableWidthComplete > \linewidth}}%
@@ -148,20 +144,12 @@
 %%                                                                  %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\ifthenelse{\isundefined{\gnumericColA}}{\newlength{\gnumericColA}}{}\settowidth{\gnumericColA}{\begin{tabular}{@{}p{40pt*\gnumericScale}@{}}x\end{tabular}}
-\ifthenelse{\isundefined{\gnumericColB}}{\newlength{\gnumericColB}}{}\settowidth{\gnumericColB}{\begin{tabular}{@{}p{100pt*\gnumericScale}@{}}x\end{tabular}}
-\ifthenelse{\isundefined{\gnumericColC}}{\newlength{\gnumericColC}}{}\settowidth{\gnumericColC}{\begin{tabular}{@{}p{180pt*\gnumericScale}@{}}x\end{tabular}}
-\ifthenelse{\isundefined{\gnumericColD}}{\newlength{\gnumericColD}}{}\settowidth{\gnumericColD}{\begin{tabular}{@{}p{40pt*\gnumericScale}@{}}x\end{tabular}}
-\ifthenelse{\isundefined{\gnumericColE}}{\newlength{\gnumericColE}}{}\settowidth{\gnumericColE}{\begin{tabular}{@{}p{40pt*\gnumericScale}@{}}x\end{tabular}}
-\ifthenelse{\isundefined{\gnumericColF}}{\newlength{\gnumericColF}}{}\settowidth{\gnumericColF}{\begin{tabular}{@{}p{40pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColA}}{\newlength{\gnumericColA}}{}\settowidth{\gnumericColA}{\begin{tabular}{@{}p{52pt*\gnumericScale}@{}}x\end{tabular}}
+\ifthenelse{\isundefined{\gnumericColB}}{\newlength{\gnumericColB}}{}\settowidth{\gnumericColB}{\begin{tabular}{@{}p{79pt*\gnumericScale}@{}}x\end{tabular}}
 
-\begin{tabular}[c]{%
+\begin{longtable}[c]{%
 	b{\gnumericColA}%
 	b{\gnumericColB}%
-	b{\gnumericColC}%
-	b{\gnumericColD}%
-	b{\gnumericColE}%
-	b{\gnumericColF}%
 	}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -172,65 +160,54 @@
 %%  the first, last or every page. Use \multicolumn if you want.    %%
 
 %%  Header for the first page.                                      %%
-%	\multicolumn{6}{c}{The First Header} \\ \hline 
+%	\multicolumn{2}{c}{The First Header} \\ \hline 
 %	\multicolumn{1}{c}{colTag}	%Column 1
-%	&\multicolumn{1}{c}{colTag}	%Column 2
-%	&\multicolumn{1}{c}{colTag}	%Column 3
-%	&\multicolumn{1}{c}{colTag}	%Column 4
-%	&\multicolumn{1}{c}{colTag}	%Column 5
 %	&\multicolumn{1}{c}{colTag}	\\ \hline %Last column
 %	\endfirsthead
 
 %%  The running header definition.                                  %%
 %	\hline
-%	\multicolumn{6}{l}{\ldots\small\slshape continued} \\ \hline
+%	\multicolumn{2}{l}{\ldots\small\slshape continued} \\ \hline
 %	\multicolumn{1}{c}{colTag}	%Column 1
-%	&\multicolumn{1}{c}{colTag}	%Column 2
-%	&\multicolumn{1}{c}{colTag}	%Column 3
-%	&\multicolumn{1}{c}{colTag}	%Column 4
-%	&\multicolumn{1}{c}{colTag}	%Column 5
 %	&\multicolumn{1}{c}{colTag}	\\ \hline %Last column
 %	\endhead
 
 %%  The running footer definition.                                  %%
 %	\hline
-%	\multicolumn{6}{r}{\small\slshape continued\ldots} \\
+%	\multicolumn{2}{r}{\small\slshape continued\ldots} \\
 %	\endfoot
 
 %%  The ending footer definition.                                   %%
-%	\multicolumn{6}{c}{That's all folks} \\ \hline 
+%	\multicolumn{2}{c}{That's all folks} \\ \hline 
 %	\endlastfoot
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\hhline{|-|-|-|-|-|-|}
+
+\hhline{|-|-}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}\gnumbox{$X$}}
+	{\gnumericPB{\centering}\gnumbox{\textbf{X}}}
 	&\multicolumn{1}{p{\gnumericColB}|}%
 	{\gnumericPB{\centering}\gnumbox{\textbf{Outcome}}}
-	
 \\
-\hhline{|------|}
+\hhline{|--|}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}\gnumbox{$0$}}
+	{\gnumericPB{\centering}\gnumbox{0}}
 	&\multicolumn{1}{p{\gnumericColB}|}%
 	{\gnumericPB{\centering}\gnumbox{Red Marble}}
-
 \\
-\hhline{|------|}
+\hhline{|--|}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}\gnumbox{$1$}}
+	{\gnumericPB{\centering}\gnumbox{1}}
 	&\multicolumn{1}{p{\gnumericColB}|}%
 	{\gnumericPB{\centering}\gnumbox{White Marble}}
-	
 \\
-\hhline{|------|}
+\hhline{|--|}
 	 \multicolumn{1}{|p{\gnumericColA}|}%
-	{\gnumericPB{\centering}\gnumbox{$2$}}
+	{\gnumericPB{\centering}\gnumbox{2}}
 	&\multicolumn{1}{p{\gnumericColB}|}%
 	{\gnumericPB{\centering}\gnumbox{Green Marble}}
-
 \\
-\hhline{|-|-|-|-|-|-|}
-\end{tabular}
+\hhline{|-|-|}
+\end{longtable}
 
 \ifthenelse{\isundefined{\languageshorthands}}{}{\languageshorthands{\languagename}}
 \gnumericTableEnd

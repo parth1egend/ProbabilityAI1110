@@ -345,7 +345,8 @@ Probability that the marble taken out is white:
 
 
 \begin{align}
-&=\frac{\text{ Number of non green marbles}}{\text{ Total number of marbles}}
+&=1 - \frac{\text{ Number of green marbles}}{\text{ Total number of marbles}}\\
+&=1 - \pr{0,0,1}
 \end{align}
 
 
@@ -356,8 +357,8 @@ Probability that the marble taken out is not green:
 
 
 \begin{align}
-	\pr{1,0,0} + \pr{0,1,0}  &= \frac{\comb{5}{1}\comb{8}{0}\comb{4}{0}}{\comb{17}{1}} + \frac{\comb{5}{0}\comb{8}{1}\comb{4}{0}}{\comb{17}{1}} \\
-	\therefore \pr{1,0,0} + \pr{0,1,0} &= \frac{13}{17} \approx 0.7647
+	1 - \pr{0,0,1}  &= 1- \frac{\comb{5}{0}\comb{8}{0}\comb{4}{1}}{\comb{17}{1}} \\
+	\therefore 1 - \pr{0,0,1} &= 1 - \frac{4}{17} = \frac{13}{17} \approx 0.7647
 	\end{align}
 
 % = $\frac{\text{\large 13}}{\text{\large 17}}\quad$

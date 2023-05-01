@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  30 APR 2023 21:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  1 MAY 2023 09:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1450,23 +1450,6 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 2
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/ts1txr.f
 d
 File: ts1txr.fd 2000/12/15 v3.1
-) (./table/table.tex
-\gnumericTableWidth=\skip73
-\gnumericTableWidthComplete=\skip74
-\gnumericMultiRowLength=\skip75
-\gnumericColA=\skip76
-\gnumericColB=\skip77
-
-
-! Package longtable Error: longtable not in 1-column mode.
-
-See the longtable package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.150 \begin{longtable}
-                       [c]{%
-? 
 )
 Overfull \hbox (23.30214pt too wide) detected at line 361
 []
@@ -1482,11 +1465,11 @@ Package rerunfilecheck Info: File `assignment1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30511 strings out of 476025
- 609732 string characters out of 5781531
- 1884388 words of memory out of 5000000
- 50286 multiletter control sequences out of 15000+600000
- 589815 words of font info for 208 fonts, out of 8000000 for 9000
+ 30461 strings out of 476025
+ 609084 string characters out of 5781531
+ 1879388 words of memory out of 5000000
+ 50246 multiletter control sequences out of 15000+600000
+ 580607 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  101i,11n,96p,1179b,436s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/txfon
@@ -1497,10 +1480,10 @@ f-dist/fonts/type1/public/txfonts/txsya.pfb></usr/local/Cellar/texlive/20230313
 /share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/Cellar/texlive/2
 0230313/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/Cellar/te
 xlive/20230313/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on assignment1.pdf (1 page, 48019 bytes).
+Output written on assignment1.pdf (1 page, 46784 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 57 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
+ 74 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
+ 20 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

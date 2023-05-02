@@ -314,7 +314,7 @@ where R,B,G and r, b, g represent the number of red, white and green marbles res
 
 \begin{align}
 	\pr{1,0,0} &= \frac{\comb{5}{1}\comb{8}{0}\comb{4}{0}}{\comb{17}{1}} \\
-	\therefore \pr{1,0,0} &= \frac{5}{17} \approx 0.2941
+	 &= \frac{5}{17} \approx 0.2941
 	\end{align}
 
 % = $\frac{\text{\large 5}}{\text{\large 17}}\quad$
@@ -330,7 +330,7 @@ where R,B,G and r, b, g represent the number of red, white and green marbles res
 
 \begin{align}
 	\pr{0,1,0} &= \frac{\comb{5}{0}\comb{8}{1}\comb{4}{0}}{\comb{17}{1}} \\
-	\therefore \pr{0,1,0} &= \frac{8}{17} \approx 0.4706
+	&= \frac{8}{17} \approx 0.4706
 	\end{align}
 
 % = $\frac{\text{\large 8}}{\text{\large 17}}\quad$
@@ -340,18 +340,13 @@ where R,B,G and r, b, g represent the number of red, white and green marbles res
 
 
 \begin{align}
-&=1 - \pr{0,0,1}
+% &=1 - \pr{0,0,1}\\
+1 - \pr{0,0,1} &= 1- \frac{\comb{5}{0}\comb{8}{0}\comb{4}{1}}{\comb{17}{1}} \\
+	  &= 1 - \frac{4}{17} = \frac{13}{17} \approx 0.7647
 \end{align}
-
 
 % = $\frac{\text{\large Number of non green marbles}}{\text{\large Total number of marbles}}\quad$
 
-
-
-\begin{align}
-	1 - \pr{0,0,1}  &= 1- \frac{\comb{5}{0}\comb{8}{0}\comb{4}{1}}{\comb{17}{1}} \\
-	\therefore 1 - \pr{0,0,1} &= 1 - \frac{4}{17} = \frac{13}{17} \approx 0.7647
-	\end{align}
 
 % = $\frac{\text{\large 13}}{\text{\large 17}}\quad$
 \end{enumerate}

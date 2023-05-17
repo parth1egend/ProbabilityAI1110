@@ -19,7 +19,6 @@ def play_random_songs(folder_path):
             pygame.mixer.music.load(audio_path)
             pygame.mixer.music.play()
 
-    def next_song():
         nonlocal current_index
         pygame.mixer.music.stop()
         current_index = (current_index + 1) % len(audio_files)

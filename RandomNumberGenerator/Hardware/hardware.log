@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  17 MAY 2023 17:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.3.21)  17 MAY 2023 22:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1219,7 +1219,17 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 1
 (/usr/local/Cellar/texlive/20230313/share/texmf-dist/tex/latex/txfonts/ot1txr.f
 d
 File: ot1txr.fd 2000/12/15 v3.1
-) (./hardware.aux)
+) (./hardware.aux
+
+LaTeX Warning: Label `output' multiply defined.
+
+
+LaTeX Warning: Label `output' multiply defined.
+
+
+LaTeX Warning: Label `output' multiply defined.
+
+)
 \openout1 = `hardware.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 104.
@@ -1401,30 +1411,36 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
 d
 File: ts1txr.fd 2000/12/15 v3.1
 ))
-<images/555_timer_circuit.jpg, id=8, 697.60625pt x 542.025pt>
+<images/555_timer_circuit.jpg, id=12, 697.60625pt x 542.025pt>
 File: images/555_timer_circuit.jpg Graphic file (type jpg)
 <use images/555_timer_circuit.jpg>
-Package pdftex.def Info: images/555_timer_circuit.jpg  used on input line 318.
+Package pdftex.def Info: images/555_timer_circuit.jpg  used on input line 361.
 (pdftex.def)             Requested size: 252.0pt x 195.79877pt.
-<images/7474.jpg, id=9, 968.61874pt x 542.025pt>
-File: images/7474.jpg Graphic file (type jpg)
-<use images/7474.jpg>
-Package pdftex.def Info: images/7474.jpg  used on input line 327.
-(pdftex.def)             Requested size: 252.0pt x 141.01414pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/circuit_connections.jpg, id=11, 1204.5pt x 475.7775pt>
+<images/7474.jpg, id=13, 968.61874pt x 542.025pt>
+File: images/7474.jpg Graphic file (type jpg)
+<use images/7474.jpg>
+Package pdftex.def Info: images/7474.jpg  used on input line 366.
+(pdftex.def)             Requested size: 252.0pt x 141.01414pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/circuit_connections.jpg, id=14, 1204.5pt x 475.7775pt>
 File: images/circuit_connections.jpg Graphic file (type jpg)
 <use images/circuit_connections.jpg>
-Package pdftex.def Info: images/circuit_connections.jpg  used on input line 334
+Package pdftex.def Info: images/circuit_connections.jpg  used on input line 371
 .
 (pdftex.def)             Requested size: 252.0pt x 99.53871pt.
-<images/7447.jpg, id=13, 939.51pt x 542.025pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/7447.jpg, id=15, 939.51pt x 542.025pt>
 File: images/7447.jpg Graphic file (type jpg)
 <use images/7447.jpg>
-Package pdftex.def Info: images/7447.jpg  used on input line 341.
+Package pdftex.def Info: images/7447.jpg  used on input line 376.
 (pdftex.def)             Requested size: 252.0pt x 145.38104pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1432,25 +1448,49 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/7447_table.jpg, id=16, 1204.5pt x 221.82875pt>
 File: images/7447_table.jpg Graphic file (type jpg)
 <use images/7447_table.jpg>
-Package pdftex.def Info: images/7447_table.jpg  used on input line 348.
+Package pdftex.def Info: images/7447_table.jpg  used on input line 381.
 (pdftex.def)             Requested size: 252.0pt x 46.4094pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 <images/seven_segment_display.jpg, id=17, 397.485pt x 542.025pt>
 File: images/seven_segment_display.jpg Graphic file (type jpg)
 <use images/seven_segment_display.jpg>
 Package pdftex.def Info: images/seven_segment_display.jpg  used on input line 3
-53.
+86.
 (pdftex.def)             Requested size: 252.0pt x 343.64445pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<images/output0.jpeg, id=18, 770.88pt x 1027.84pt>
+File: images/output0.jpeg Graphic file (type jpg)
+<use images/output0.jpeg>
+Package pdftex.def Info: images/output0.jpeg  used on input line 397.
+(pdftex.def)             Requested size: 252.0pt x 335.9888pt.
+<images/output1.jpeg, id=19, 1027.84pt x 770.88pt>
+File: images/output1.jpeg Graphic file (type jpg)
+<use images/output1.jpeg>
+Package pdftex.def Info: images/output1.jpeg  used on input line 402.
+(pdftex.def)             Requested size: 252.0pt x 188.99075pt.
+<images/output2.jpeg, id=20, 1027.84pt x 770.88pt>
+File: images/output2.jpeg Graphic file (type jpg)
+<use images/output2.jpeg>
+Package pdftex.def Info: images/output2.jpeg  used on input line 407.
+(pdftex.def)             Requested size: 252.0pt x 188.99075pt.
+<images/output3.jpeg, id=21, 1027.84pt x 770.88pt>
+File: images/output3.jpeg Graphic file (type jpg)
+<use images/output3.jpeg>
+Package pdftex.def Info: images/output3.jpeg  used on input line 412.
+(pdftex.def)             Requested size: 252.0pt x 188.99075pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/output.jpeg, id=19, 770.88pt x 1027.84pt>
-File: images/output.jpeg Graphic file (type jpg)
-<use images/output.jpeg>
-Package pdftex.def Info: images/output.jpeg  used on input line 367.
-(pdftex.def)             Requested size: 252.0pt x 335.9888pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -1461,21 +1501,23 @@ pdftex.map}{/usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/enc/dvips
 
  <./images/555_timer_circuit.jpg> <./images/7474.jpg> <./images/circuit_connect
 ions.jpg>] [2 <./images/7447.jpg> <./images/7447_table.jpg> <./images/seven_seg
-ment_display.jpg> <./images/output.jpeg>] (./hardware.aux)
+ment_display.jpg> <./images/output0.jpeg> <./images/output1.jpeg>] [3
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+ <./images/output2.jpeg> <./images/output3.jpeg>] (./hardware.aux)
+
+LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `hardware.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 30006 strings out of 476025
- 602029 string characters out of 5781531
+ 30032 strings out of 476025
+ 602541 string characters out of 5781531
  1871388 words of memory out of 5000000
- 49796 multiletter control sequences out of 15000+600000
+ 49814 multiletter control sequences out of 15000+600000
  579024 words of font info for 171 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,9n,96p,1176b,443s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,9n,96p,1176b,449s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/public/txfon
 ts/rtxr.pfb></usr/local/Cellar/texlive/20230313/share/texmf-dist/fonts/type1/pu
 blic/txfonts/rtxsc.pfb></usr/local/Cellar/texlive/20230313/share/texmf-dist/fon
@@ -1483,10 +1525,10 @@ ts/type1/urw/times/utmb8a.pfb></usr/local/Cellar/texlive/20230313/share/texmf-d
 ist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/Cellar/texlive/20230313/share
 /texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/Cellar/texlive/2023031
 3/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on hardware.pdf (2 pages, 351339 bytes).
+Output written on hardware.pdf (3 pages, 879262 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 62 compressed objects within 1 object stream
- 21 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
+ 25 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

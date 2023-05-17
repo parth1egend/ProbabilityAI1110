@@ -314,61 +314,106 @@
 \section*{Procedure}
 \begin{enumerate}
 	\item We connected the 555 timer circuit like the figure \ref{555_t_c}
-	\begin{figure}[h]
-		\includegraphics[width=\linewidth]{images/555_timer_circuit.jpg}
-		\caption{Connection in 555 timer circuit}
-		\label{555_t_c}
-	\end{figure}
+	% \begin{figure}[h]
+	% 	\includegraphics[width=\linewidth]{images/555_timer_circuit.jpg}
+	% 	\caption{Connection in 555 timer circuit}
+	% 	\label{555_t_c}
+	% \end{figure}
 	
 	\item Then, we coupled the 555 timer's clock output to the D-flip flops' clock signal.
 	
 	\item Now we make the circuit for shift registers using a 4 D-Flip flops (using two 7474 IC's)
-	\begin{figure}[h]
+	% \begin{figure}[h]
+	% 	\includegraphics[width=\linewidth]{images/7474.jpg}
+	% 	\caption{Connection in 7474 IC}
+	% 	\label{7474_IC}
+	% \end{figure}
+
+	\item Then we connected XOR gate (7486 IC) according to the figure \ref{XOR} 
+	% \begin{figure}[h]
+	% 	\includegraphics[width=\linewidth]{images/circuit_connections.jpg}
+	% 	\caption{Connection in XOR gate}
+	% 	\label{XOR}
+	% \end{figure}
+
+	\item Then we connected the decoder (7447 IC) and connected its A,B,C,D with $Q_0$,$Q_1$,$Q_2$,$Q_3$ respectively as per the figure \ref{7447}
+	% \begin{figure}[h]
+	% 	\includegraphics[width=\linewidth]{images/7447.jpg}
+	% 	\caption{Connection in Decoder gate}
+	% 	\label{7447}
+	% \end{figure}
+		
+	\item Then, in accordance with the table, we connected the seven segmented display and the dceoder (7447 IC) \ref{table} and the figure \ref{SSD}
+	% \begin{figure}[h]
+	% 	\includegraphics[width=\linewidth]{images/7447_table.jpg}
+	% 	\caption{Connection of seven segmented display with decoder}
+	% 	\label{table}
+	% \end{figure}
+	% \begin{figure}[h]
+	% 	\includegraphics[width=\linewidth]{images/seven_segment_display.jpg}
+	% 	\caption{Seven segmented display}
+	% 	\label{SSD}
+	% \end{figure}
+
+	\item Before connecting the power supply, we linked all of the independent components.
+ 
+ \begin{figure}[h]
+		\includegraphics[width=\linewidth]{images/555_timer_circuit.jpg}
+		\caption{Connection in 555 timer circuit}
+		\label{555_t_c}
+	\end{figure}
+ \begin{figure}[h]
 		\includegraphics[width=\linewidth]{images/7474.jpg}
 		\caption{Connection in 7474 IC}
 		\label{7474_IC}
 	\end{figure}
-
-	\item Then we connected XOR gate (7486 IC) according to the figure \ref{XOR} 
-	\begin{figure}[h]
+\begin{figure}[h]
 		\includegraphics[width=\linewidth]{images/circuit_connections.jpg}
 		\caption{Connection in XOR gate}
 		\label{XOR}
 	\end{figure}
-
-	\item Then we connected the decoder (7447 IC) and connected its A,B,C,D with $Q_0$,$Q_1$,$Q_2$,$Q_3$ respectively as per the figure \ref{7447}
-	\begin{figure}[h]
+ \begin{figure}[h]
 		\includegraphics[width=\linewidth]{images/7447.jpg}
 		\caption{Connection in Decoder gate}
 		\label{7447}
 	\end{figure}
-		
-	\item Then, in accordance with the table, we connected the seven segmented display and the dceoder (7447 IC) \ref{table} and the figure \ref{SSD}
-	\begin{figure}[h]
+    \begin{figure}[h]
 		\includegraphics[width=\linewidth]{images/7447_table.jpg}
 		\caption{Connection of seven segmented display with decoder}
 		\label{table}
 	\end{figure}
-	\begin{figure}[h]
+    \begin{figure}[h]
 		\includegraphics[width=\linewidth]{images/seven_segment_display.jpg}
 		\caption{Seven segmented display}
 		\label{SSD}
 	\end{figure}
-
-	\item Before connecting the power supply, we linked all of the independent components.
-	
 	
 	
 	
 	
 \section*{Output} 
-	Random numbers are generated on the display. \ref{output}
+	Random numbers are generated on the display.
 	\begin{figure}[h]
-		\includegraphics[width=\linewidth]{images/output.jpeg}
+		\includegraphics[width=\linewidth]{images/output0.jpeg}
 		\caption{output}
 		\label{output}
 	\end{figure}
-	
+ 	\begin{figure}[h]
+		\includegraphics[width=\linewidth]{images/output1.jpeg}
+		\caption{output}
+		\label{output}
+	\end{figure}
+ 	\begin{figure}[h]
+		\includegraphics[width=\linewidth]{images/output2.jpeg}
+		\caption{output}
+		\label{output}
+	\end{figure}
+ 	\begin{figure}[h]
+		\includegraphics[width=\linewidth]{images/output3.jpeg}
+		\caption{output}
+		\label{output}
+	\end{figure}
+
 \end{enumerate}
 
 
@@ -376,3 +421,4 @@
 
 
 \end{document}
+

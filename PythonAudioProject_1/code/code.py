@@ -1,7 +1,8 @@
 import os
 from numpy import random
 import pygame
-from tkinter import Tk, Button
+from tkinter import Tk, Button, Label
+
 
 def play_random_songs(folder_path):
     audio_files = os.listdir(folder_path)
@@ -36,13 +37,29 @@ def play_random_songs(folder_path):
     startsong()
 
     root = Tk()
+    root.geometry('400x200')  # Set the size of the window (width x height)
+    root.title('Music Player')
+    
+    text_label = Label(root, text='Hello World!')
+    text_label.pack()
+    text_label = Label(root, text='Randomized Music Player')
+    text_label.pack()
+    text_label = Label(root, text='The songs are in a random order.')
+    text_label.pack()
+    text_label = Label(root, text=' Use the buttons to navigate through them!')
+    text_label.pack()
     next_button = Button(root, text='Next', command=next_song)
-    next_button.pack()
+    # Position the button to the left with padding
+    next_button.pack(side='left', padx=10, pady=10)
+
     previous_button = Button(root, text='Previous', command=previous_song)
-    previous_button.pack()
+    # Position the button to the right with padding
+    previous_button.pack(side='right', padx=10, pady=10)
+
     root.mainloop()
 
-folder_path = '/Users/parthajit/Desktop/projectfiles/audiofiles'  # Replace with the path to your audio folder
-play_random_songs(folder_path)
 
+# Replace with the path to your audio folder
+folder_path = '/Users/parthajit/Desktop/projectfiles/audiofiles'
+play_random_songs(folder_path)
 
